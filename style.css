@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fiveringsdb';
-  src:  url('fonts/fiveringsdb.eot?v130bh');
-  src:  url('fonts/fiveringsdb.eot?v130bh#iefix') format('embedded-opentype'),
-    url('fonts/fiveringsdb.ttf?v130bh') format('truetype'),
-    url('fonts/fiveringsdb.woff?v130bh') format('woff'),
-    url('fonts/fiveringsdb.svg?v130bh#fiveringsdb') format('svg');
+  src:  url('fonts/fiveringsdb.eot?ir9o0e');
+  src:  url('fonts/fiveringsdb.eot?ir9o0e#iefix') format('embedded-opentype'),
+    url('fonts/fiveringsdb.ttf?ir9o0e') format('truetype'),
+    url('fonts/fiveringsdb.woff?ir9o0e') format('woff'),
+    url('fonts/fiveringsdb.svg?ir9o0e#fiveringsdb') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-unique:before {
+  content: "\e90e";
+}
 .icon-conflict-military:before {
   content: "\e900";
 }
@@ -68,4 +71,7 @@
 }
 .icon-clan-unicorn:before {
   content: "\e90d";
+}
+.icon-clan-neutral:before {
+  content: "\e910";
 }
