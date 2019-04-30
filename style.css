@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fiveringsdb';
-  src:  url('fonts/fiveringsdb.eot?yn5wqh');
-  src:  url('fonts/fiveringsdb.eot?yn5wqh#iefix') format('embedded-opentype'),
-    url('fonts/fiveringsdb.ttf?yn5wqh') format('truetype'),
-    url('fonts/fiveringsdb.woff?yn5wqh') format('woff'),
-    url('fonts/fiveringsdb.svg?yn5wqh#fiveringsdb') format('svg');
+  src:  url('fonts/fiveringsdb.eot?v130bh');
+  src:  url('fonts/fiveringsdb.eot?v130bh#iefix') format('embedded-opentype'),
+    url('fonts/fiveringsdb.ttf?v130bh') format('truetype'),
+    url('fonts/fiveringsdb.woff?v130bh') format('woff'),
+    url('fonts/fiveringsdb.svg?v130bh#fiveringsdb') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -45,6 +45,9 @@
 .icon-element-water:before {
   content: "\e906";
 }
+.icon-element-all:before {
+  content: "\e90f";
+}
 .icon-clan-crab:before {
   content: "\e907";
 }
@@ -66,4 +69,3 @@
 .icon-clan-unicorn:before {
   content: "\e90d";
 }
-
